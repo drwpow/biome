@@ -348,6 +348,7 @@ pub type UseErrorMessage =
     <lint::suspicious::use_error_message::UseErrorMessage as biome_analyze::Rule>::Options;
 pub type UseExhaustiveDependencies = < lint :: correctness :: use_exhaustive_dependencies :: UseExhaustiveDependencies as biome_analyze :: Rule > :: Options ;
 pub type UseExplicitLengthCheck = < lint :: style :: use_explicit_length_check :: UseExplicitLengthCheck as biome_analyze :: Rule > :: Options ;
+pub type UseExplicitTestAssertions = < lint :: nursery :: use_explicit_test_assertions :: UseExplicitTestAssertions as biome_analyze :: Rule > :: Options ;
 pub type UseExplicitType =
     <lint::nursery::use_explicit_type::UseExplicitType as biome_analyze::Rule>::Options;
 pub type UseExponentiationOperator = < lint :: style :: use_exponentiation_operator :: UseExponentiationOperator as biome_analyze :: Rule > :: Options ;
